@@ -58,7 +58,7 @@ aside {
     width: 20%;
     margin-left: 80%;
     height: 100vh;
-    border-left: 1px solid rgba(128, 128, 128, 0.32);
+    border-left: 1px solid rgba(128, 128, 128, 0.2);
 }
 footer {
     background-color: #aba9a3;
@@ -79,7 +79,7 @@ section img{
     display: inline-block;
     float: left;
     width: 40%;
-    border: 2px solid rgba(128, 128, 128, 0.32);
+    border: 1px solid rgba(128, 128, 128, 0.2);
 }
 .content div{
     color: lightpink;
@@ -100,7 +100,7 @@ aside ul{
     padding: 0;
 }
 aside li {
-    border-bottom: 1px solid rgba(128, 128, 128, 0.32);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
     padding: 20px 0px;
 }
 .contact h2{
