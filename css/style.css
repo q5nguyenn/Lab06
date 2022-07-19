@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    /*background-color: skyblue;*/
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Serif;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.7);
+}
+header {
+    background-image: url("/images/header.jpg");
+    height:160px;
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
+    /*background-color: #aaaaa4;*/
+}
+header img{
+    width: 100%;
+    object-fit: cover;
+    /*border: 2px solid red;*/
+}
+nav {
+    /*border: 2px solid red;*/
+}
+nav ul {
+    background-color: #aba9a4;
+    /*border: 2px solid green;*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    /*border: 2px solid blue;*/
+    display: inline-block;
+}
+nav a {
+    display: block;
+    /*border: 2px solid yellow;*/
+    text-decoration: none;
+    padding: 10px 5px;
+    color: white;
+}
+nav a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+}
+.main{
+    width: 100%;
+    overflow: hidden;
+}
+main {
+    float: left;
+    width: 80%;
+    height: 100vh;
+    padding-left: 20px;
+    /*border: 2px solid red;*/
+}
+main p{
+    text-indent: 20px;
+    text-align: justify;
+}
+aside {
+    width: 20%;
+    margin-left: 80%;
+    /*border: 2px solid blue;*/
+}
+footer {
+    background-color: #aba9a3;
+    color: white;
+    position: relative;
+    bottom: 0;
+}
+/*Section*/
+section {
+    overflow: auto;
+    position: relative;
+    /*border: 2px solid blue;*/
+    margin-top: 20px;
+}
+section img{
+    width: 100%;
+}
+.box {
+    display: inline-block;
+    float: left;
+    width: 40%;
+    border: 2px solid rgba(128, 128, 128, 0.32);
+}
+.content div{
+    color: lightpink;
+}
+.content {
+    /*border: 2px solid red;*/
+    display: inline-block;
+    width: 60%;
+    padding-left: 20px;
+}
+aside {
+    padding: 20px;
+    color: lightpink;
+}
+aside ul{
+    /*border: 2px solid red;*/
+    list-style-type: none;
+    padding: 0;
+}
+aside li {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.32);
+    padding: 20px 0px;
+}
+.contact h2{
+    color: black;
+}
+footer {
+    width: 100%;
+    display: block;
+    position: relative;
+    bottom: 0;
+}
+footer div {
+    padding: 10px 10px;
+}
